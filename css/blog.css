@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    font-family: 'Montserrat', sans-serif;
+} 
+html, body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.navbar {
+    background: #7f5af0;
+}
+.navbar .nav-link {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    color: rgb(204, 204, 204);
+}
+.navbar .nav-link:hover {
+    color: #2cb67d;
+}
+.navbar .nav-link.active {
+    color: rgb(252, 141, 141);
+}
+.navbar-toggler{
+    color: red;
+}
+.navbar-toggler-icon {
+    color: rgb(204, 204, 204);
+    padding-top: 15%;
+    font-size: 23px;
+}
+span {
+    color: #fffffe;
+    font-weight: 900;
+    font-size: 30px;
+}
+.home {
+    /* background: rgb(103,174,202);
+    background: linear-gradient(90deg, rgba(103,174,202,0.45) 20%, rgba(103,86,130,0.45) 85%), url(../images/home.jpg); */
+    background: #16161a;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    color: white;
+    border-bottom: 1px solid lightgray;
+}
+.welcome-text {
+    margin: 200px 0px 250px 0px;
+}
+.welcome-text h1{
+    color: #fffffe;
+    font-size: 150px;
+    font-weight: 900;
+}
+.welcome-text h2 {
+    color: #fffffe;
+    font-size: 100px;
+    font-weight: 500;
+}
+.welcome-text p{
+    color: #94a1b2;
+    font-size: 20px;
+}
+.buttons {
+    margin-top: 3%;
+}
+.button-link {
+    border: 2px solid cyan;
+    background: -webkit-linear-gradient(#394ae225, #37ddb454);
+    border-radius: 10%;
+    padding: 10px 20px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+}
+.button-link:hover {
+    background-color: rgb(33, 172, 165);
+    transition: .4s;
+    color: white;
+}
+/* About Us Area */
+.post{
+    background-color: #16161a;
+}
+.card-about {
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    overflow: hidden;
+    border-radius: 5px;
+    width: 100%;
+    background: #fffffe;
+    margin: 0px 0px 50px 0px;
+    border: 2px solid #7f5af0;
+    padding: 10px 10px 10px 10px;
+}
+.img1 img{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    width: 100%;
+}
+.card-about:hover .img1 img{
+    transform: scale(1.02);
+    transition: .4s;
+}
+.main-text h1{
+    color: #fffffe;
+    font-size: 40px;
+    font-weight: 900;
+    margin: 60px 0px 60px 8px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.main-text h2{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1; 
+    font-size: 43px;
+    font-weight: 900;
+    margin: 20px 0px 10px 14px;
+    text-transform: uppercase;
+}
+.main-text h6 {
+    font-size: 17px;
+    margin: 10px 0px 10px 14px;
+}
+.name {
+    color: #72757e;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+.main-text p {
+    color: #72757e;
+    font-size: 15px;
+    margin: 15px 8px 25px 14px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2; 
+}
+
+.socials a {
+    text-decoration: none;
+    color: #fffffe;
+    padding: 8px 15px 8px 15px;
+    background: #7f5af0;
+    margin: 10px 8px 5px 8px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+@media screen and (max-width: 550px) {
+    .welcome-text h1{
+        color: #fffffe;
+        font-size: 100px;
+        font-weight: 900;
+    }
+
+    .welcome-text h2 {
+        color: #fffffe;
+        font-size: 50px;
+        font-weight: 500;
+    }
+
+    .main-text h2{
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 5; 
+        font-size: 33px;
+        font-weight: 900;
+        margin: 20px 0px 10px 14px;
+        text-transform: uppercase;
+    }
+}
+/* End About Us */
+
+/* Footer */
+.footer {
+    border-top: 1px solid lightgray;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+}

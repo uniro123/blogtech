@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    font-family: 'Montserrat', sans-serif;
+} 
+html, body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.navbar {
+    background: #7f5af0;
+}
+.navbar .nav-link {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    color: rgb(204, 204, 204);
+}
+.navbar .nav-link:hover {
+    color: #2cb67d;
+}
+.navbar .nav-link.active {
+    color: rgb(252, 141, 141);
+}
+.navbar-toggler{
+    color: red;
+}
+.navbar-toggler-icon {
+    color: rgb(204, 204, 204);
+    padding-top: 15%;
+    font-size: 23px;
+}
+span {
+    color: #fffffe;
+    font-weight: 900;
+    font-size: 30px;
+}
+/* Contact Us Area */
+.section-contact {
+    background:#e6e6df;
+    
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+.section-contact h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+.section-contact h2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+.form-group:hover{
+    transform: scale(1.03);
+    transition: .4s;
+}
+.card-contact {
+    background: #16161a;
+    overflow: hidden;
+    border-radius: 2%;
+    border: 3px solid #7f5af0;
+}
+.info p {
+    font-size: 1px;
+}
+.text-head {
+    margin-bottom: 4%;
+}
+.icon-name {
+    font-size: 20px;
+    border-bottom: 2px solid white;
+}
+.icon i{
+    border: 3px solid #fffffe;
+    border-radius: 60px;
+    background: #16161a;
+    padding: 12px 13.6px;
+}
+.icon i:hover {
+    transform: scale(1.1);
+    border-color: #fffffe;
+    color: #16161a;
+    background: #fffffe;
+    transition: .4s;
+    border: 3px solid #7f5af0;
+}
+.btn1 {
+    border: 2px solid #fffffe;
+    background: #16161a ;
+    border-radius: 10%;
+    padding: 5px 20px; 
+    color: white;
+    margin-top: 5%;
+}
+.btn1:hover {
+    background-color: #fffffe;
+    transform: scale(1.1);
+    transition: .4s;
+    color: #16161a;
+    border: 3px solid #7f5af0;
+}
+.line{
+    border-top: 1px solid #fffffe;
+}
+/* End Contact Us Area */
+/* Footer */
+.footer {
+    border-top: 1px solid lightgray;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+}   

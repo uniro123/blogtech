@@ -139,6 +139,11 @@ span {
     color: #72757e;
     font-size: 15px;
     margin: 15px 8px 25px 14px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3; 
 }
 
 .socials a {

@@ -117,8 +117,8 @@ span {
 }
 .main-text h6 {
     font-size: 15px;
-    color: #16161a;
     margin-left: 10px;
+    color: #72757e;
 }
 .main-text .description {
     color: #16161a;
@@ -163,7 +163,7 @@ span {
     color: #fffffe;
 }
 .recent-socials:hover {
-    transform: scale(1.03);
+    transform: scale(1.01);
     transition: 0.3s;
 }
 /* RECENT POST */
@@ -239,6 +239,45 @@ span {
     text-transform: uppercase;
     font-weight: 900;
 }
+
+.main-text span {
+    text-decoration: none;
+}
+.main-text i {
+    text-decoration: none;
+}
+
+.main-text a {
+    text-decoration: none;
+}
+
+.main-text span:hover {
+    color: #7f5af0;
+}
+
+.main-text i:hover {
+    color: #7f5af0;
+}
+
+.recent-main-text a {
+    text-decoration: none;
+}
+
+.recent-main-text span {
+    text-decoration: none;
+}
+
+.recent-main-text h2:hover {
+    color: #7f5af0;
+}
+
+.recent-main-text span:hover {
+    color: #7f5af0;
+}
+
+.recent-main-text i:hover {
+    color: #7f5af0;
+}
 /* Footer */
 .footer {
     border-top: 1px solid lightgray;
@@ -253,6 +292,7 @@ span {
 }
 .emoji {
     font-size: 30px;  
+    cursor: pointer;
 }
 
 .post-actions {
@@ -260,21 +300,21 @@ span {
     padding-bottom: 15px;
 }
 .reaction-btn {
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 900;
     border: none;
     width: 100%;
     background: none;
 }
 .comment-btn {
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 900;
     border: none;
     width: 100%;
     background: none;
 }
 .share-btn {
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 900;
     border: none;
     width: 100%;
@@ -283,7 +323,7 @@ span {
 
 .reaction-btn i, .comment-btn i, .share-btn i {
     font-weight: 900;
-    font-size: 13px;
+    font-size: 17px;
 }
 .comments {
     border: 1px solid #72757e;
@@ -309,7 +349,177 @@ span {
 input:focus {
     outline: none;
 }
+.content {
+    font-size: 16px;
+}
 .result .comment-result {
     margin: 10px 0px 0px 0px;
 }
 /* REACTION AREA */
+
+@media screen and (max-width: 470px) {
+    .emoji {
+        font-size: 25px;  
+    }
+    .content {
+        font-size: 15px;
+    }
+    .reaction-btn {
+        font-size: 14px;
+    }
+    .comment-btn {
+        font-size: 14px;
+    }
+    .share-btn {
+        font-size: 14px;
+    }
+    
+    .reaction-btn i, .comment-btn i, .share-btn i {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .emoji {
+        font-size: 22px;  
+    }
+    .content {
+        font-size: 14px;
+    }
+    .reaction-btn {
+        font-size: 13px;
+    }
+    .comment-btn {
+        font-size: 13px;
+    }
+    .share-btn {
+        font-size: 13px;
+    }
+    
+    .reaction-btn i, .comment-btn i, .share-btn i {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .emoji {
+        font-size: 19px;  
+    }
+    .content {
+        font-size: 13px;
+    }
+    .reaction-btn {
+        font-size: 12px;
+    }
+    .comment-btn {
+        font-size: 12px;
+    }
+    .share-btn {
+        font-size: 12px;
+    }
+    
+    .reaction-btn i, .comment-btn i, .share-btn i {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .emoji {
+        font-size: 17px;  
+    }
+    .content {
+        font-size: 12px;
+    }
+    .reaction-btn {
+        font-size: 11px;
+    }
+    .comment-btn {
+        font-size: 11px;
+    }
+    .share-btn {
+        font-size: 11px;
+    }
+    
+    .reaction-btn i, .comment-btn i, .share-btn i {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .emoji {
+        font-size: 15px;  
+    }
+    .content {
+        font-size: 11px;
+    }
+    .reaction-btn {
+        font-size: 10.5px;
+    }
+    .comment-btn {
+        font-size: 10.5px;
+    }
+    .share-btn {
+        font-size: 10.5px;
+    }
+    
+    .reaction-btn i, .comment-btn i, .share-btn i {
+        font-size: 11.5px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .emoji {
+        font-size: 13px;  
+    }
+    .content {
+        font-size: 10px;
+    }
+    .reaction-btn {
+        font-size: 8.5px;
+    }
+    .comment-btn {
+        font-size: 8.5px;
+    }
+    .share-btn {
+        font-size: 8.5px;
+    }
+    
+    .reaction-btn i, .comment-btn i, .share-btn i {
+        font-size: 9.5px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .emoji {
+        font-size: 11px;  
+    }
+    .reaction-btn {
+        font-size: 6.5px;
+    }
+    .comment-btn {
+        font-size: 6.5px;
+    }
+    .share-btn {
+        font-size: 6.5px;
+    }
+    
+    .reaction-btn i, .comment-btn i, .share-btn i {
+        font-size: 7.5px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .reaction-btn {
+        font-size: 5.5px;
+    }
+    .comment-btn {
+        font-size: 5.5px;
+    }
+    .share-btn {
+        font-size: 5.5px;
+    }
+    
+    .reaction-btn i, .comment-btn i, .share-btn i {
+        font-size: 6.5px;
+    }
+}

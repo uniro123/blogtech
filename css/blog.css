@@ -103,6 +103,9 @@ span {
     transform: scale(1.02);
     transition: .4s;
 }
+.main-text a{
+    text-decoration: none;
+}
 .main-text h1{
     color: #fffffe;
     font-size: 40px;
@@ -121,6 +124,10 @@ span {
     font-weight: 900;
     margin: 20px 0px 10px 14px;
     text-transform: uppercase;
+    color: #16161a;
+}
+.main-text h2:hover {
+    color: #7f5af0;
 }
 .main-text h6 {
     font-size: 17px;
@@ -144,6 +151,14 @@ span {
     -webkit-line-clamp: 2; 
 }
 
+.main-text span:hover {
+    color: #7f5af0;
+}
+
+.main-text p:hover {
+    color: #7f5af0;
+}
+
 .socials a {
     text-decoration: none;
     color: #fffffe;
@@ -152,6 +167,14 @@ span {
     margin: 10px 8px 5px 8px;
     border-radius: 5px;
     font-weight: 500;
+}
+.socials a:hover {
+    background: #72757e;
+    color: #fffffe;
+}
+.socials:hover {
+    transform: scale(1.01);
+    transition: 0.3s;
 }
 @media screen and (max-width: 550px) {
     .welcome-text h1{

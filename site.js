@@ -28,7 +28,7 @@ function react(reactionType, emoji) {
         reactionStates[reactionType] = false;
 
         // Set the reaction button back to default
-        reactionButton.innerHTML = '<i class="fa-regular fa-thumbs-up"></i>';
+        reactionButton.innerHTML = '<i class="fa-regular fa-thumbs-up"></i> Like';
     }
 }
 
